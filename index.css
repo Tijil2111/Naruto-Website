@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
 body{
   margin: 0;
   padding: 0;
+  font-family: 'Oswald', sans-serif;
 }
   /* Section 1 Styling */
   .section1{
@@ -186,4 +189,14 @@ body{
 
 .container >p{
   font-size: 25px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
