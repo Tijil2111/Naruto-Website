@@ -22,13 +22,8 @@ body{
   .section1 > h1{
       font-size: 100px;
       color:white;
-      padding-top: 25vm;
   } 
 
-  .section1 > h3{
-    font-size: 50vm;
-    color: white;
-  }
   /* Section 2 */
 
   .section2{
