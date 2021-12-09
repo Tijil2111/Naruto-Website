@@ -29,11 +29,6 @@ body{
     font-size: 50vm;
     color: white;
   }
-
- 
-
-
-
   /* Section 2 */
 
   .section2{
@@ -45,37 +40,6 @@ body{
     flex-direction: column;
     align-items: center;
   }
-
-  /*Card*/
-  .section2-cards{
-    display: grid;
-    grid-template-columns: 50px 50px 50px;
-    grid-template-rows: 50px 50px 50px;
-    grid-column-gap: 300px;
-    grid-row-gap: 300px;
-    padding-left: 200px;
-    padding-top: 50px;
-  }
-  .card{
-    width: 300px;
-    grid-column-start: auto;
-    transition:all 0.3s;
-  }
-
-  .card :hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  .section2 > h1{
-    text-align: center;
-    color: white;
-    font-size: 75px;
-  }
-
-  .section2-cards >h4{
-    padding-left: 100px;
-    font-size: 35px;
-  }
-
   /* Section 3 */
 
   .section3{
@@ -87,37 +51,6 @@ body{
     flex-direction: column;
     align-items: center;
   }
-
-  /*Card*/
-  .section3-cards{
-    display: grid;
-    grid-template-columns: 50px 50px 50px;
-    grid-template-rows: 50px 50px 50px;
-    grid-column-gap: 300px;
-    grid-row-gap: 300px;
-    padding-left: 200px;
-    padding-top: 50px;
-  }
-  .card{
-    width: 300px;
-    grid-column-start: auto;
-    transition:all 0.3s;
-  }
-
-  .card :hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  .section3 > h1{
-    text-align: center;
-    color: white;
-    font-size: 75px;
-  }
-
-  .section3-cards >h4{
-    padding-left: 100px;
-    font-size: 35px;
-  }
-
 /* Final Section */
 
 
@@ -130,45 +63,7 @@ body{
   flex-direction: column;
   align-items: center;
 }
-
-/*Card*/
-.section4-cards{
-  display: grid;
-  grid-template-columns: 50px 50px 50px;
-  grid-template-rows: 50px 50px 50px;
-  grid-column-gap: 300px;
-  grid-row-gap: 300px;
-  padding-left: 200px;
-  padding-top: 50px;
-}
-.card{
-
-  width: 300px;
-  grid-column-start: auto;
-  transition:all 0.3s;
-}
-
-.card :hover{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-.section4 > h1{
-  text-align: center;
-  color: white;
-  font-size: 75px;
-}
-
-.section4-cards >h4{
-  padding-left: 100px;
-  font-size: 55px;
-}
-
-.container >h4{
-  font-size: 35px;
-}
-
-.container >p{
-  font-size: 25px;
-}
+/* footer */
 
 .footer {
   position: fixed;
@@ -182,4 +77,40 @@ body{
 
 .container > h4{
   text-align: center;
+}
+/* Cards */
+.section-cards{
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+  grid-column-gap: 300px;
+  grid-row-gap: 300px;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+.card{
+  width: 300px;
+  grid-column-start: auto;
+  transition:all 0.3s;
+}
+
+.card :hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.section > h1{
+  text-align: center;
+  color: white;
+  font-size: 75px;
+}
+
+.section-cards >h4{
+  padding-left: 100px;
+  font-size: 35px;
+}
+.container >h4{
+  font-size: 35px;
+}
+
+.container >p{
+  font-size: 25px;
 }
