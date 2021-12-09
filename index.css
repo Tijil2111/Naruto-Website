@@ -76,7 +76,6 @@ body{
     padding-top: 50px;
   }
   .card{
-    height: 1000px;
     width: 300px;
     grid-column-start: auto;
     
@@ -119,7 +118,6 @@ body{
     padding-top: 50px;
   }
   .card{
-    height: 1000px;
     width: 300px;
     grid-column-start: auto;
     
@@ -163,7 +161,7 @@ body{
   padding-top: 50px;
 }
 .card{
-  height: 1000px;
+
   width: 300px;
   grid-column-start: auto;
   
