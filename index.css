@@ -78,7 +78,7 @@ body{
   .card{
     width: 300px;
     grid-column-start: auto;
-    
+    transition:all 0.3s;
   }
 
   .card :hover{
@@ -120,7 +120,7 @@ body{
   .card{
     width: 300px;
     grid-column-start: auto;
-    
+    transition:all 0.3s;
   }
 
   .card :hover{
@@ -164,7 +164,7 @@ body{
 
   width: 300px;
   grid-column-start: auto;
-  
+  transition:all 0.3s;
 }
 
 .card :hover{
