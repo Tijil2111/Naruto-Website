@@ -125,4 +125,38 @@ body{
     height: 150vh;
   }
 }
+@media screen and (max-width: 700px) {
+  .card {
+     width: 90%;
+  }
+  .cardContainer{
+    padding-left: 50px;
+  }
+  .section2{
+    height: 150vh;
+  }
+  .section3{
+    height: 150vh;
+  }
+  .section4{
+    height: 150vh;
+  }
+}
+@media screen and (max-width: 800px) {
+  .card {
+     width: 90%;
+  }
+  .cardContainer{
+    padding-left: 50px;
+  }
+  .section2{
+    height: 150vh;
+  }
+  .section3{
+    height: 150vh;
+  }
+  .section4{
+    height: 150vh;
+  }
+}
 
