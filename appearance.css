@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    color: white;   
+    background-color: black;
+}
+
+a{
+  font-size: 20px;
+  color: white;
+}
+ul{
+  list-style-type: none;
+}
+
+.section1 {
+    display: flex;
+}
+.section1 > p{
+    font-size: 40px;
+    padding: 100px;
+}
+
+
+  /* Section 2 */
+
+  .section2{
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-gap: 50vm 100vm; 
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+   /* Section 3 */
+
+   .section3{
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-gap: 50vm 100vm; 
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+   /* Section 4 */
+
+   .section4{
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-gap: 50vm 100vm; 
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+   /* Section 5 */
+
+   .section5{
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-gap: 50vm 100vm; 
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+   /* Section 6 */
+
+   .section6{
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-gap: 50vm 100vm; 
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+   /* Section 7 */
+
+   .section7{
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-gap: 50vm 100vm; 
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+     /* Section 8 */
+
+     .section8{
+        width: 100%;
+        height: 40vh;
+        display: grid;
+        grid-gap: 50vm 100vm; 
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+      }
+  .card {
+    color: white;
+    box-shadow: 5px 5px #FFD6AC;
+    width: calc(25% - 40px);
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    height: 180px;
+  }
+  .card p {
+    font-size: 18px;
+  }
+  .cardContainer{
+    display: flex;
+  }
+  .cardContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 800px) {
+    .card {
+       width: 90%;
+    }
+    .cardContainer{
+      flex-flow :column;
+      gap:20px
+    }
+  
+    .section2{
+      height: auto;
+    }
+    .section3{
+        height: auto;
+      }
+      .section4{
+        height: auto;
+      }
+      .section5{
+        height: auto;
+      }
+      .section6{
+        height: auto;
+      }
+      .section7{
+        height: auto;
+      }
+      .section8{
+        height: auto;
+      }
+  }
+  @media screen and (max-width: 1000px) {
+    .card {
+       width: 80%;
+       
+    }
+    .cardContainer{
+      flex-flow :column;
+      gap:20px
+    }
+  
+    .section2{
+      height: auto;
+    }
+    .section3{
+        height: auto;
+      }
+      .section4{
+        height: auto;
+      }
+      .section5{
+        height: auto;
+      }
+      .section6{
+        height: auto;
+      }
+      .section7{
+        height: auto;
+      }
+      .section8{
+        height: auto;
+      }
+  }
+  
+  

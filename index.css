@@ -6,6 +6,13 @@ body{
   font-family: 'Oswald', sans-serif;
   color: white;
 }
+
+h4{
+text-align: center;
+font-size: 30px;
+}
+
+
   /* Section 1 Styling */
   .section1{
     display: flex;
@@ -37,6 +44,8 @@ body{
     align-items: center;
     box-sizing: border-box;
   }
+
+
   /* Section 3 */
 
   .section3{
