@@ -95,7 +95,6 @@ body{
 }
 .card {
   color: white;
-  float: left;
   width: calc(25% - 40px);
   padding: 10px;
   border-radius: 10px;
