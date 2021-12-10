@@ -16,12 +16,14 @@ ul{
   list-style-type: none;
 }
 
+
 .section1 {
     display: flex;
 }
 .section1 > p{
     font-size: 40px;
     padding: 100px;
+    text-align: center;
 }
 
 
