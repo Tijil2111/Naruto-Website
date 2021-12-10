@@ -117,11 +117,39 @@ body{
   .card {
      width: 90%;
   }
+  .cardContainer{
+    flex-flow :column;
+    gap:20px
+  }
+
+  .section2{
+    height: auto;
+  }
+  .section3{
+    height: auto;
+  }
+  .section4{
+    height: auto;
+  }
 }
 @media screen and (max-width: 1000px) {
   .card {
      width: 80%;
+     
+  }
+  .cardContainer{
+    flex-flow :column;
+    gap:20px
   }
 
+  .section2{
+    height: auto;
+  }
+  .section3{
+    height: auto;
+  }
+  .section4{
+    height: auto;
+  }
 }
 
