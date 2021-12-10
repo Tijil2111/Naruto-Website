@@ -101,7 +101,7 @@ body{
   font-size: 18px;
 }
 .cardContainer{
-  padding-left: 200px;
+  padding-left: 250px;
 }
 .cardContainer:after {
   content: "";
@@ -161,6 +161,23 @@ body{
 }
 
 @media screen and (max-width: 900px) {
+  .card {
+     width: 80%;
+  }
+  .cardContainer{
+    padding-left: 75px;
+  }
+  .section2{
+    height: 150vh;
+  }
+  .section3{
+    height: 150vh;
+  }
+  .section4{
+    height: 150vh;
+  }
+}
+@media screen and (max-width: 1000px) {
   .card {
      width: 80%;
   }
