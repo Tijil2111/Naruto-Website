@@ -65,16 +65,19 @@ body{
 /* footer */
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   background-color: black;
-  color: white;
-  text-align: center;
+  width: 100%;
+  height: 8vh;
+  display: grid;
+  grid-gap: 50px 100px; 
+  flex-direction: column;
+  align-items: center;
   box-sizing: border-box;
 }
+.footer >p{
 
+  text-align: center;
+}
 .container > h4{
   text-align: center;
 }
