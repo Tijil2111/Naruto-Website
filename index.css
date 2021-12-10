@@ -42,7 +42,7 @@ body{
   .section3{
     background-color: #4C9DC6;
     width: 100%;
-    height: 130vh;
+    height: 100vh;
     display: grid;
     grid-gap: 50px 100px; 
     flex-direction: column;
@@ -106,7 +106,6 @@ body{
   font-size: 18px;
 }
 .cardContainer{
-  padding-left: 250px;
   display: flex;
 }
 .cardContainer:after {
@@ -118,34 +117,11 @@ body{
   .card {
      width: 90%;
   }
-  .cardContainer{
-    padding-left: 50px;
-  }
-  .section2{
-    height: 150vh;
-  }
-  .section3{
-    height: 200vh;
-  }
-  .section4{
-    height: 150vh;
-  }
 }
 @media screen and (max-width: 1000px) {
   .card {
      width: 80%;
   }
-  .cardContainer{
-    padding-left: 75px;
-  }
-  .section2{
-    height: 150vh;
-  }
-  .section3{
-    height: 200vh;
-  }
-  .section4{
-    height: 150vh;
-  }
+
 }
 
