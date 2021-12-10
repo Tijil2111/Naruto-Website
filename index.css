@@ -95,7 +95,7 @@ body{
 }
 .card {
   color: white;
-  box-shadow: 5px 10px #888888;
+  box-shadow: 5px 10px #FFD6AC;
   width: calc(25% - 40px);
   padding: 10px;
   border-radius: 10px;
