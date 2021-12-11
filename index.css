@@ -56,7 +56,6 @@ input[type=email]:focus {
 
 .button-area button{
   color: #fff;
-  display: flex;
   width: 160px!important;
   height: 45px;
   outline: none;
@@ -64,10 +63,10 @@ input[type=email]:focus {
   font-weight: 500;
   border-radius: 6px;
   cursor: pointer;
-  background: black;
+  background-color: red;
   border: 2px solid black;
   transition: all 0.3s ease;
-  padding-left: 700px;
+  align-self: center;
 }
 
 .contact{
@@ -208,9 +207,6 @@ text-align: center;
     width: 100%;
     margin-top: 0;
   }
-  .button-area button{
-    padding-left: 225px;
-  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -231,9 +227,6 @@ text-align: center;
   }
   .section4{
     height: auto;
-  }
-  .button-area button{
-    padding-left: 440px;
   }
 }
 
