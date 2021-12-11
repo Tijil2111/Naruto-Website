@@ -84,7 +84,7 @@ text-align: center;
     background-color: #000;
     background-image: url(wallpaper.jpeg);
     box-sizing: border-box;
-
+    background-repeat:no-repeat
   }
 
   .section1 > h1{
